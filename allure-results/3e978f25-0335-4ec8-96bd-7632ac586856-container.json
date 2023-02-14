@@ -1,0 +1,1 @@
+{"uuid":"3e978f25-0335-4ec8-96bd-7632ac586856","name":"TestCases.TC03_Payment","children":["fb5374e3-4c62-46a1-b95e-3a88738f8a26"],"befores":[],"afters":[{"name":"TearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1676413736291,"stop":1676413736675}],"start":1676413684579,"stop":1676413736676}

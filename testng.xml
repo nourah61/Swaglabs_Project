@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+
+
+    <test verbose="2" preserve-order="true" name="check second">
+        <classes>
+            <class name="TestCases.TC02_AddToCart">
+
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="check third">
+        <classes>
+            <class name="TestCases.TC03_Payment">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

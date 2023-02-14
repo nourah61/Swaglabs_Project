@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="swaglabs_project(failed)">
+    <classes>
+      <class name="TestCases.TC02_AddToCart">
+        <methods>
+          <include name="TC001_checkAdd"/>
+          <include name="setupDriver"/>
+          <include name="TearDown"/>
+          <include name="getresult"/>
+        </methods>
+      </class> <!-- TestCases.TC02_AddToCart -->
+    </classes>
+  </test> <!-- swaglabs_project(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

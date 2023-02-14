@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="82134" started-at="2023-02-15T01:27:34 AST" finished-at="2023-02-15T01:28:56 AST">
+    <groups>
+    </groups>
+    <test name="check second" duration-ms="30012" started-at="2023-02-15T01:27:34 AST" finished-at="2023-02-15T01:28:04 AST">
+      <class name="TestCases.TC02_AddToCart">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:TestCases.TC02_AddToCart@5649ec46]" name="setupDriver" is-config="true" duration-ms="17406" started-at="2023-02-15T01:27:34 AST" finished-at="2023-02-15T01:27:51 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="TC001_checkAdd()[pri:2, instance:TestCases.TC02_AddToCart@5649ec46]" name="TC001_checkAdd" duration-ms="11563" started-at="2023-02-15T01:27:51 AST" finished-at="2023-02-15T01:28:03 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_checkAdd -->
+        <test-method status="PASS" signature="getresult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_AddToCart@5649ec46]" name="getresult" is-config="true" duration-ms="5" started-at="2023-02-15T01:28:03 AST" finished-at="2023-02-15T01:28:03 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_checkAdd status=SUCCESS method=TC02_AddToCart.TC001_checkAdd()[pri:2, instance:TestCases.TC02_AddToCart@5649ec46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TC02_AddToCart@5649ec46]" name="TearDown" is-config="true" duration-ms="830" started-at="2023-02-15T01:28:03 AST" finished-at="2023-02-15T01:28:04 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.TC02_AddToCart -->
+    </test> <!-- check second -->
+    <test name="check third" duration-ms="52096" started-at="2023-02-15T01:28:04 AST" finished-at="2023-02-15T01:28:56 AST">
+      <class name="TestCases.TC03_Payment">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:TestCases.TC03_Payment@6e78fcf5]" name="setupDriver" is-config="true" duration-ms="15787" started-at="2023-02-15T01:28:04 AST" finished-at="2023-02-15T01:28:20 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="TC002_checkPayment()[pri:2, instance:TestCases.TC03_Payment@6e78fcf5]" name="TC002_checkPayment" duration-ms="35921" started-at="2023-02-15T01:28:20 AST" finished-at="2023-02-15T01:28:56 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_checkPayment -->
+        <test-method status="PASS" signature="getresult(org.testng.ITestResult)[pri:0, instance:TestCases.TC03_Payment@6e78fcf5]" name="getresult" is-config="true" duration-ms="1" started-at="2023-02-15T01:28:56 AST" finished-at="2023-02-15T01:28:56 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_checkPayment status=SUCCESS method=TC03_Payment.TC002_checkPayment()[pri:2, instance:TestCases.TC03_Payment@6e78fcf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TC03_Payment@6e78fcf5]" name="TearDown" is-config="true" duration-ms="384" started-at="2023-02-15T01:28:56 AST" finished-at="2023-02-15T01:28:56 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.TC03_Payment -->
+    </test> <!-- check third -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

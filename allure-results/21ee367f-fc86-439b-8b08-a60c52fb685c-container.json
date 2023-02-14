@@ -1,0 +1,1 @@
+{"uuid":"21ee367f-fc86-439b-8b08-a60c52fb685c","name":"TestCases.TC02_AddToCart","children":["e52c9ca9-53ce-4480-9611-c9d87ff7a031"],"befores":[],"afters":[{"name":"TearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1676413683722,"stop":1676413684551}],"start":1676413654544,"stop":1676413684557}

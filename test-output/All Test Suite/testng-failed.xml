@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="check second(failed)">
+    <classes>
+      <class name="TestCases.TC02_AddToCart">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="TC001_checkAdd"/>
+          <include name="TearDown"/>
+          <include name="getresult"/>
+        </methods>
+      </class> <!-- TestCases.TC02_AddToCart -->
+    </classes>
+  </test> <!-- check second(failed) -->
+  <test thread-count="5" name="check third(failed)">
+    <classes>
+      <class name="TestCases.TC03_Payment">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="TC002_checkPayment"/>
+          <include name="TearDown"/>
+          <include name="getresult"/>
+        </methods>
+      </class> <!-- TestCases.TC03_Payment -->
+    </classes>
+  </test> <!-- check third(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
